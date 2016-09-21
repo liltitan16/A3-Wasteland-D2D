@@ -1,5 +1,6 @@
 # Custom
 *.bak
+*.pbo
 
 # Windows image file caches
 Thumbs.db
