@@ -16,9 +16,9 @@ else
 	/*******************************************************
 	 Player UID examples :
 
-		"1234567887654321", // Meatwad
-		"8765432112345678", // Master Shake
-		"1234876543211234", // Frylock
+		"76561198124216938", // micro
+		"76561198124216938", // Kmazz
+		"76561198046182063", // Zil
 		"1337133713371337"  // Carl
 
 	 Important: The player UID must always be placed between
@@ -29,7 +29,7 @@ else
 	// Low Administrators: manage & spectate players, remove hacked vehicles
 	lowAdmins = compileFinal str
 	[
-		// Put player UIDs here
+		"76561198046182063", // Zil
 	];
 
 	// High Administrators: manage & spectate players, remove hacked vehicles, show player tags
@@ -41,7 +41,8 @@ else
 	// Server Owners: access to everything, including god mode, money, guns, and vehicles
 	serverOwners = compileFinal str
 	[
-		// Put player UIDs here
+		"76561198124216938", // micro
+		"76561198124216938", // Kmazz
 	];
 
 	/********************************************************/
