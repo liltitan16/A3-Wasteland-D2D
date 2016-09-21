@@ -13,7 +13,7 @@ _aKeyName = { _arr = actionKeysNamesArray _this; if (count _arr == 0) exitWith {
 
 waitUntil {!isNull player};
 
-player createDiarySubject ["info's", "Info's and Help"];
+player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 
