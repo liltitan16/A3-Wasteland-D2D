@@ -1,0 +1,6 @@
+NOTE: 
+- Check the keys list for ArmA3 for the h key so we can holster for the keybinding rather than scrollwheel
+- In the gun store menu for the PM pistol, the mags don't show up for them we might need to get some data values 
+  for the ID of the ammo it takes then look for the file that we can edit to add the ammo to the store. (And put a price on it)
+- Fix a lot of prices
+- Thermals seem to be 'disabled', we need to enable them and place all the thermal stuff/optics into the stoers and set some really high prices for them
