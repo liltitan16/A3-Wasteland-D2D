@@ -21,7 +21,7 @@ A3W_timeMultiplierNight = 4.0;     // Sets the speed of time between 8 PM and 5 
 A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
-A3W_startingMoney = 100;           // Amount of money that players start with
+A3W_startingMoney = 10000;           // Amount of money that players start with
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 60;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
@@ -125,17 +125,17 @@ A3W_hcObjSavingID = 1;             // ID of the headless client in charge of obj
 // Server spawn settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 200;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 500;         // Approximate number of land vehicles to be spawned in towns
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
 A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
 A3W_planeSpawning = 1;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
-A3W_boxSpawning = 0;               // If serverSpawning = 1, spawn weapon crates in 50% towns (0 = no, 1 = yes)
+A3W_boxSpawning = 1;               // If serverSpawning = 1, spawn weapon crates in 50% towns (0 = no, 1 = yes)
 A3W_baseBuilding = 1;              // If serverSpawning = 1, spawn base parts in towns (0 = no, 1 = yes)
 A3W_essentialsSpawning = 1;        // If serverSpawning = 1, spawn essential items (food sacks, water barrels, minor supply crates) in towns (0 = no, 1 = yes)
 
 // Loot settings
-A3W_buildingLootWeapons = 0;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
-A3W_buildingLootSupplies = 0;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
+A3W_buildingLootWeapons = 1;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
+A3W_buildingLootSupplies = 1;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
 A3W_buildingLootChances = 25;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
 A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 
